@@ -1,0 +1,30 @@
+ProductFilters.filters {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .filter-button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .filter-button.active {
+    background-color: #6a4bf3;
+    color: #fff;
+  }
+  
+  .filter-button:last-child {
+    margin-right: 0;
+  }
+  
