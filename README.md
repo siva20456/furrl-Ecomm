@@ -53,7 +53,7 @@ This project is a React-based application for displaying a list of products with
 
 ## Folder Structure 
 
-src/
+[src/
 ├── components/
 ├── ├── NavBar/
 │   │   ├── NavBar.css
@@ -73,7 +73,7 @@ src/
 ├── index.css
 ├── index.tsx
 ├── ProductFilterContext.ts
-├── products.ts
+├── products.ts]
 
 
 
