@@ -50,6 +50,33 @@ This project is a React-based application for displaying a list of products with
 - Fetch API
 - CSS Modules
 
+
+## Folder Structure 
+
+src/
+├── components/
+├── ├── NavBar/
+│   │   ├── NavBar.css
+│   │   ├── NavBar.tsx
+│   ├── ProductCard/
+│   │   ├── ProductCard.css
+│   │   ├── ProductCard.tsx
+│   ├── ProductFilters/
+│   │   ├── ProductFilters.css
+│   │   ├── ProductFilters.tsx
+│   ├── ProductsList/
+│   │   ├── ProductsList.css
+│   │   ├── ProductsList.tsx
+├── App.css
+├── App.test.tsx
+├── App.tsx
+├── index.css
+├── index.tsx
+├── ProductFilterContext.ts
+├── products.ts
+
+
+
 ## Setup
 
 1. Clone the repository:

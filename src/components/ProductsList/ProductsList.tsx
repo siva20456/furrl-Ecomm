@@ -6,10 +6,6 @@ import './ProductsList.css';
 import FilterContext from '../../ProductFilterContext';
 
 
-interface Filter {
-    id: string;
-    type: string;
-}
 
 const ProductList: React.FC = () => {
     const [productList, setProductList] = useState<Product[]>([]);
